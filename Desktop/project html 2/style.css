@@ -1,0 +1,86 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply Roboto font to the whole page */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;   /* makes the nav inline */
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff9800; /* hover effect */
+}
+
+/* Section styling */
+section {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Contact form */
+form input, form textarea, form button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #ff9800;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+/* === Images for menu items === */
+img {
+  width: 150px;   /* make images smaller */
+  height: auto;   /* keep proportions */
+  border-radius: 8px;  /* optional: round corners */
+  display: block;
+  margin: 8px 0;
+}
